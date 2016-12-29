@@ -1,4 +1,4 @@
-FROM denghui/openjdk:7-alpine-tz.8
+FROM denghui/openjdk:7-jdk-alpine-tz.8
 
 RUN apk add --no-cache git openssh-client curl unzip bash ttf-dejavu coreutils
 
